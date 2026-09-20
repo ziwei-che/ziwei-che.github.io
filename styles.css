@@ -25,6 +25,26 @@ main {
   margin: 0 auto;
 }
 
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.portrait {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: #eee;
+}
+
+.profile-text {
+  min-width: 0;
+}
+
 h1 {
   margin: 0 0 0.2rem;
   font-size: 1.85rem;
@@ -41,10 +61,17 @@ h1 {
 }
 
 .links {
-  margin: 0 0 2rem;
+  margin: 0;
   font-family: "Source Sans 3", system-ui, sans-serif;
   font-size: 0.95rem;
   color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 a {

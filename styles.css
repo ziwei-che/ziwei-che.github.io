@@ -32,7 +32,7 @@ main {
   margin-bottom: 2rem;
 }
 
-.portrait {
+.photo {
   flex-shrink: 0;
   width: 140px;
   height: 140px;

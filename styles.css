@@ -1,0 +1,95 @@
+:root {
+  --text: #222;
+  --muted: #555;
+  --link: #0b57a4;
+  --line: #ddd;
+  --max: 40rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2.5rem 1.25rem 4rem;
+  color: var(--text);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  background: #fff;
+}
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 0 0.2rem;
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.subtitle {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 1rem;
+}
+
+.links {
+  margin: 0 0 2rem;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 1.75rem;
+}
+
+h2 {
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 0.75rem;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+.pubs {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pubs li {
+  margin-bottom: 0.85rem;
+}
+
+strong {
+  font-weight: 600;
+}
